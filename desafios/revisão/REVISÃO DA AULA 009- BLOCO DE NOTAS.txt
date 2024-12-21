@@ -1,0 +1,40 @@
+<h1>Lista de compras<h1>
+<ol> <!--É uma lista ordenada-->
+<h2>Vamos ver abaixo uma lista ordenada por números, sejam eles romanos ou a
+té mesmo letra!</h2>
+<h3>Compras</h3>
+<ol>
+  <li>Alface</li>
+  <li>Repolho</li>
+  <li>Tomate</li>
+  <li>Vinagre</li>
+  <li>Leite</li>
+  <li>Ovos</li>
+</ol>
+<h2>Essa lista acima esta númerada, já que é a forma padrão...Para escolher
+ outros estilos de númeração usa-se:</h2>
+<ol type = "a"> <!--A lista vai ser contada em ordem alfabetica. Isso também 
+ocorre com números romanos.-->
+<!--No caso de números, pode começar contando de um número que não é inicial, como:-->
+<ol type = "1" start = "4"> <!-- Essa lista começará contando do número 4-->
+
+<h1>Listas não ordenadas<h1>
+<ul> <!--É uma lista não ordenada-->
+<h2>Vamos ver uma lista não ordenada abaixo<h2>
+<ul>
+  <li>Ir ao mercado</li>
+  <li>Ir para acas da minha avó</li>
+  <li>Estudar mais tarde</li>
+  <li>Separar uns minutos para respirar</li>
+  <li>Exercitar a mente</li>
+</ul>
+<!--Uma lista não ordenada, não possui ordem. (não me diga!)-->
+<!--Ela pode ser organizada em pontinhos (disc), quadrados (square), círculos (circle)-->
+<!--Exemplo:-->
+<ul type= "circle">
+   <list>Pão</list>
+   <list>Massa</list>
+   <list>Arroz</list>
+</ul>
+
+

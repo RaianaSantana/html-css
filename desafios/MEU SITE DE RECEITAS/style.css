@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body{
+
+    background-image: linear-gradient(to top, rgb(235, 235, 70), rgb(250, 182, 56), rgb(255, 123, 0));
+  
+  }
+mark{
+    background-color: rgb(245, 141, 125);
+}
+
+h1{
+   
+   font-size: 3em;
+   text-align: center;
+   font-family: font-family: "Nabla", system-ui;
+   color: rgba(0, 0, 0, 0.986);
+   
+   
+}
+
+p{
+    font-size: 18px;
+}
+
+h2{
+    font-family: cursive;
+    font-size: 20px;
+}
+
+h3{
+    font-family: cursive;
+    
+}
+
+a{
+    font-family: cursive;
+    color:#d33d3d;
+}
+
+main{
+    background-color: white;
+    box-shadow: 5px 5px 15px rgb(122, 119, 119);
+    padding: 10px;
+    border-radius: 10px;
+    width: 600px;
+    margin: auto;
+    text-align: justify;
+
+}
+
+
+
+

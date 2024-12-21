@@ -1,0 +1,19 @@
+(link css)
+
+@charset "UTF-8";
+
+body{
+     background-color= "blue"
+}
+ mark{  
+      background-color= "aqua"
+}
+
+h1{
+   background-color= "lime"
+   font-family= " cursive";
+}
+
+h2{
+   background-color= "lime"
+}
