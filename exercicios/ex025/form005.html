@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        header {
+            background-color: rgb(165, 165, 165);
+
+            padding: 10px;
+            
+        }
+
+        main  {
+            background-color: white;
+            padding: 50px;
+            width: 1200px;
+            min-width: 300px;
+            margin: auto;
+        }
+
+        @media  screen and (max-width: 1154px) and (min-width: 375px) {
+            main {
+                width: 400px;
+                
+            }
+        }
+
+        @media screen and (max-width: 360px) and (min-width: 340px) {
+            main {
+                width: 350px;
+            }
+            
+        }
+
+        @media screen and (max-width: 340px) and (min-width: 162px) {
+            main {
+                width: 350px;
+            }
+            
+        }
+
+        @media screen and (max-width: 162px)and (min-width: 100px){
+
+            h1 {
+                font-size: 1.4em;
+
+            }
+
+            main {
+                display: none;
+            }
+            
+        }
+
+
+        fieldset {
+            background-color: rgba(0, 0, 0, 0.233);
+        }
+        
+        h1 {
+            color: transparent;
+            background-image: linear-gradient(white, rgb(175, 253, 168));
+            background-clip: text;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        body {
+            background-image: linear-gradient(rgb(178, 243, 178), rgb(118, 170, 118));
+
+            background-attachment: fixed;
+
+            font-family: Arial, Helvetica, sans-serif;
+
+            display: flex;
+            justify-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+
+        .button {
+            border-radius: 50%;
+            color: white;
+            border: 1px groove;
+            padding: 10px;
+            background-color: transparent;
+            font-family: Arial, Helvetica, sans-serif;
+            
+          
+            
+        }
+
+        .button:hover {
+            background-color: rgb(165, 196, 165);
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: auto;
+          
+        }
+
+        td, th {
+           border: 1px solid black;
+           background-color: white;
+           padding: 10px;
+           
+        }
+
+        th {
+            background-color: rgba(175, 174, 174, 0.596);
+        }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Exemplo de Formulário</h1>
+        <form action="cadastro.php" method="get" autocomplete="on">
+            <fieldset>
+                <legend>Sexo</legend>
+                <input type="radio" name="sexo" id="sfem"  checked value="F">
+                <label for="sfem">Feminino</label>
+                <br>
+                <input type="radio" name="sexo" id="sman" value="M">
+                <label for="sman">Masculino</label>
+            </fieldset>
+            <fieldset>
+                <legend>Esportes favoritos</legend>
+                <input type="checkbox" name="chess" id="ichess" checked><label for="ichess">Xadrez</label>
+                <br>
+                <input type="checkbox" name="Basquete" id="ibasquete"><label for="ibasquete">Basquete</label>
+                <br>
+                <input type="checkbox" name="Badminton" id="ibadminton"><label for="ibadminton">Badminton</label>
+                <br>
+                <input type="checkbox" name="Futebol" id="ifutebol"><label for="ifutebol">Futebol</label>
+            </fieldset>
+
+            <br>
+
+            <p>
+                <div id="buttons">
+                    <input type="submit" value="Enviar" class="button">
+                    <input type="reset" value="Apagar" class="button">
+                </div>
+            </p>
+        </form>
+    </header>
+
+    <main>
+        <table>
+
+            <h2>Tabela de Esportes</h2>
+            <thead>
+               <th>Total de Jogadores</th>
+                <th>Basquete</th>
+                <th>Xadrez</th>
+                <th>Badminton</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="5">192</td>
+                    <td>12</td>
+                    <td>14</td>
+                    <td>10</td>
+                </tr>
+        
+                <tr>
+                    <td>16</td>
+                    <td>20</td>
+                    <td>26</td>
+                 
+                </tr>
+                <tr>
+                    <td>28</td>
+                    <td>7</td>
+                    <td>9</td>
+                    
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>17</td>
+                    <td>22</td>
+                   
+                  
+                  
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    
+</body>
+</html>
