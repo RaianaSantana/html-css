@@ -5,28 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gradiente em CSS</title>
     <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
         body{
            background-image: linear-gradient(360deg,#E66601,#E69720, #E6AF20,#E6C620);
            background-attachment: fixed;
+
         }
-    </style>  
-</head>
-<body>
-    <style>
+
         main{
            text-align: center;
         }
-    </style>
-    <main><img src="logo-horizontal-v2.webp" alt=""></main>
-    <img src="b63d80_841afc7a62ba459f8e3a935c78934bd6~mv2.webp" alt="">
-    <h1 style="color: #603252;  font-size: 80px;">GATOS</h1>
-    <h1 style="color: #83378D;">MANUAL DE <br> INSTRUÇÃO</h1>
-    <p style="color: #603252;font-size: 20px;">Está entrando agora no maravilhoso mundo felino <br> ou simplesmente quer saber mais sobre os gatos? <br> Aproveite nosso eBook com informações valiosas <br> sobre esses animais encantadores.</p>
-    <style>
+
         h1{
             font-size: 50px;
             font-family: Arial, Helvetica, sans-serif;
         }
-    </style>   
+
+        #cat {
+            width: 100vw;
+            box-shadow: inset 25px 25px 25px black;
+            position: relative;
+            height: 53vh;
+        }
+
+        #logo {
+            position: absolute;
+            margin-left: 36%;
+            
+        }
+
+        span {
+            color:  #603252;
+            font-size: 80px;
+        }
+
+        h1 {
+            color: #83378D;
+           
+           
+            
+        }
+
+        .p1 {
+            color: #603252;
+            font-size: 1.3em;
+        }
+
+        
+        button {
+            display: block;
+            margin-left: 28%;
+            
+        }
+            
+        
+
+
+
+    </style>  
+</head>
+<body>
+    <main><img src="logo-horizontal-v2.webp" alt="" id="logo"></main>
+    <img src="b63d80_841afc7a62ba459f8e3a935c78934bd6~mv2.webp" alt="" id="cat">
+   
+        <h1><span>GATOS</span><br>MANUAL DE <br> INSTRUÇÃO</h1>
+        <button><a href="#">Saiba mais</a></button>
+
+    <br>
+    <p class="p1">Está entrando agora no maravilhoso mundo felino <br> ou simplesmente quer saber mais sobre os gatos? <br> Aproveite nosso eBook com informações valiosas <br> sobre esses animais encantadores.</p>
 </body>
 </html>
